@@ -42,25 +42,21 @@ const LandingPage = () => {
     <div className="h-screen relative flex items-center justify-center">
       <div className="text-center tracking-[.25em]">
         <p>{greeting}.</p>
-        <h2 className="text-4xl text-blue-light font-bold my-5">
-          I&apos;m Nico,
-        </h2>
+        <h2 className="text-4xl text-blue-light font-bold my-5">I&apos;m Nico,</h2>
         <p>a full stack developer.</p>
         <div className="flex justify-center text-5xl">
           <a
             className="m-5 mr-0 hover:opacity-50 duration-300"
-            href="https://github.com/NicoLindenau"
+            href="https://github.com/nicoxify"
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             <AiFillGithub />
           </a>
           <a
             className="m-5 hover:opacity-50 duration-300"
             href="https://www.linkedin.com/in/nico-lindenau-187759214/"
             target="_blank"
-            rel="noreferrer"
-          >
+            rel="noreferrer">
             <AiFillLinkedin />
           </a>
         </div>

@@ -6,18 +6,16 @@ const Footer = () => {
       <div className="flex justify-center text-5xl">
         <a
           className="m-5 mr-0 hover:opacity-50 duration-300"
-          href="https://github.com/NicoLindenau"
+          href="https://github.com/nicoxify"
           target="_blank"
-          rel="noreferrer"
-        >
+          rel="noreferrer">
           <AiFillGithub />
         </a>
         <a
           className="m-5 hover:opacity-50 duration-300"
           href="https://www.linkedin.com/in/nico-lindenau-187759214/"
           target="_blank"
-          rel="noreferrer"
-        >
+          rel="noreferrer">
           <AiFillLinkedin />
         </a>
       </div>
